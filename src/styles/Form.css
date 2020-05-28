@@ -54,3 +54,13 @@ button {
   background-color: white;
   color: #7d0e10;
 }
+
+@media screen and (max-width: 600px) {
+  input[type=text] {
+    width: 100%;
+  }
+
+  textarea {
+    width: 100%;
+  }
+}

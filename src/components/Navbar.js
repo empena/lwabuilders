@@ -6,8 +6,12 @@ const Navbar = () => {
     <>
       <div className="mainNav">
         <div className="leftNavStyles">
-          <img className="logo" width="65" height="30" src="https://res.cloudinary.com/dvwwzmsmn/image/upload/v1590618404/LWA/LOGO_NAME_white_xklb9c.png" />
-
+          <img
+            className="logo"
+            width="65"
+            height="30"
+            src="https://res.cloudinary.com/dvwwzmsmn/image/upload/v1590618404/LWA/LOGO_NAME_white_xklb9c.png"
+          />
         </div>
         <div className="rightNavStyles">
           <a href="#services" className="navbutton">
@@ -18,9 +22,6 @@ const Navbar = () => {
           </a>
           <a href="#contact" className="navbuttonOne">
             CONTACT
-          </a>
-          <a href="#contact" className="navbuttonTwo">
-            GET A QUOTE
           </a>
         </div>
       </div>

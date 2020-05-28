@@ -107,4 +107,17 @@ section {
     align-items: center;
   }
 
+  .navbutton {
+    padding: 1em 2em 1em;
+    font-size: 10px;
+
+  }
+
+  .navbuttonOne {
+    font-size: 10px;
+    margin-right: 1em;
+    margin-left: .5em;
+  
+  }
+
 }

@@ -163,7 +163,7 @@ const Home = () => {
           alt="Porch"
           src="https://res.cloudinary.com/dvwwzmsmn/image/upload/v1590618404/LWA/LOGO_contc6.png"
         />
-        <p>&copy; LWA Builders 2020</p>
+        <p>&copy; by LWA Builders 2020</p>
       </div>
     </>
   );
