@@ -10,7 +10,7 @@ const ContactForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    fetch(`https://hooks.zapier.com/hooks/catch/7360337/o5p1bnc/`, {
+    fetch(`https://hooks.zapier.com/hooks/catch/7360337/o8g1qpa/`, {
       method: "POST",
       body: JSON.stringify({ phone, message, name }),
     })
