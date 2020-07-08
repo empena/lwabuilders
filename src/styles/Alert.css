@@ -1,5 +1,6 @@
 .alert {
   padding: 20px;
-  color: #7d0e10;
+  color: white;
   margin-bottom: 8px;
+  background-color: green;
 }
