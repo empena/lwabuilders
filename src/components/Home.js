@@ -8,13 +8,10 @@ const Home = () => {
       <section id="header">
         <div className="containerHeaderOne">
           <div className="containerHeaderTwo">
-            <a
-              href="http://www.lwabuilders.com"
-              className="animation"
-              target="_blank"
-            >
-              LWA BUILDERS
-            </a>
+            <div className="head">
+              <h5>Carpentry Contractor</h5>
+              <h8>Locally owned and operated business. LWA Builders takes pride in every job we do and guarantee 100% customer satisfaction.</h8>
+            </div>
           </div>
         </div>
       </section>
@@ -27,10 +24,10 @@ const Home = () => {
               <div className="column">
                 <h4>Decks</h4>
                 <img
-                  width="95%"
+                  width="auto"
                   height="100"
                   alt="Pro Referral"
-                  src="https://res.cloudinary.com/dvwwzmsmn/image/upload/v1590632144/LWA/architecture-bungalow-clouds-countryside-449023_aaovig.jpg"
+                  src="https://res.cloudinary.com/dvwwzmsmn/image/upload/v1594178364/LWA/icons-01_azdauz.png"
                 />
                 <p>
                   We can help you build the deck of your dreams. High quality
@@ -41,10 +38,10 @@ const Home = () => {
               <div className="column">
                 <h4>Home Renovation</h4>
                 <img
-                  width="95%"
+                  width="auto"
                   height="100"
                   alt="Pro Referral"
-                  src="https://res.cloudinary.com/dvwwzmsmn/image/upload/v1590632137/LWA/home-real-estate-106399_m4ekpc.jpg"
+                  src="https://res.cloudinary.com/dvwwzmsmn/image/upload/v1594178364/LWA/icons-03_sjcvh6.png"
                 />
                 <p>
                   From finishing the basement or updating a bathroom, we can
@@ -55,10 +52,10 @@ const Home = () => {
               <div className="column">
                 <h4>Fencing</h4>
                 <img
-                  width="95%"
+                  width="auto"
                   height="100"
                   alt="Pro Referral"
-                  src="https://res.cloudinary.com/dvwwzmsmn/image/upload/v1590631846/LWA/gray-scale-photo-of-white-fence-942469_xdewqo.jpg"
+                  src="https://res.cloudinary.com/dvwwzmsmn/image/upload/v1594178364/LWA/icons-04_motn8m.png"
                 />
                 <p>
                   LWA Builders has a history of delivering superior fence
@@ -69,10 +66,10 @@ const Home = () => {
               <div className="column">
                 <h4>Handyman</h4>
                 <img
-                  width="95%"
+                  width="auto"
                   height="100"
                   alt="Pro Referral"
-                  src="https://res.cloudinary.com/dvwwzmsmn/image/upload/v1590631848/LWA/floor-plan-on-table-834892_t8dwyk.jpg"
+                  src="https://res.cloudinary.com/dvwwzmsmn/image/upload/v1594178364/LWA/icons-02_ad0ayu.png"
                 />
                 <p>
                   No task is to small for our team. Hardware installation, door
@@ -163,7 +160,7 @@ const Home = () => {
           alt="Porch"
           src="https://res.cloudinary.com/dvwwzmsmn/image/upload/v1590618404/LWA/LOGO_contc6.png"
         />
-        <p>&copy; by LWA Builders 2020</p>
+        <p>&copy; LWA Builders 2020</p>
       </div>
     </>
   );
