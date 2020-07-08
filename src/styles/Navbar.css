@@ -13,6 +13,7 @@ section {
   background-color: #2e2e31;
   position: fixed;
   box-shadow: 0 1px 1px 0 rgba(0,0,0,0.14);
+  z-index: 100;
 }
 
 .rightNavStyles {
@@ -71,15 +72,18 @@ section {
 }
 
 .navbutton:hover {
-  color: #7d0e10;
+  color: gray;
 }
 
 .navbuttonOne:hover {
   box-shadow: 0 1.5px 4px 0 rgba(0,0,0,.3);
+  color: gray;
+  border: 1px solid gray;
 }
 
 .navbuttonTwo:hover {
   box-shadow: 0 1.5px 4px 0 rgba(0,0,0,.3);
+  color: gray;
 }
 
 .hamnav label, #hamburger { display: none; }
