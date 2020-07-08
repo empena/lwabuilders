@@ -12,7 +12,7 @@ section {
   top: 0;
   background-color: #2e2e31;
   position: fixed;
-  box-shadow: 0 1px 1px 0 rgba(0,0,0,0.14);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14);
   z-index: 100;
 }
 
@@ -20,7 +20,7 @@ section {
   display: flex;
   justify-content: flex-end;
   width: 70%;
-  padding: .8em .5em;
+  padding: 0.8em 0.5em;
   align-items: center;
 }
 
@@ -28,11 +28,11 @@ section {
   display: flex;
   justify-content: space-between;
   width: 30%;
-  padding: .5em .5em;
+  padding: 0.5em 0.5em;
 }
 
 .logo {
-  margin: .5em;
+  margin: 0.5em;
 }
 
 .navbutton {
@@ -45,7 +45,7 @@ section {
 }
 
 .navbuttonOne {
-  padding: .8em 2em .8em;
+  padding: 0.8em 2em 0.8em;
   font-size: 12px;
   color: white;
   text-decoration: none;
@@ -55,11 +55,10 @@ section {
   border-radius: 4px;
   margin-right: 2em;
   margin-left: 1.5em;
-
 }
 
 .navbuttonTwo {
-  padding: .8em 2em .8em;
+  padding: 0.8em 2em 0.8em;
   font-size: 12px;
   color: white;
   text-decoration: none;
@@ -76,17 +75,20 @@ section {
 }
 
 .navbuttonOne:hover {
-  box-shadow: 0 1.5px 4px 0 rgba(0,0,0,.3);
+  box-shadow: 0 1.5px 4px 0 rgba(0, 0, 0, 0.3);
   color: gray;
   border: 1px solid gray;
 }
 
 .navbuttonTwo:hover {
-  box-shadow: 0 1.5px 4px 0 rgba(0,0,0,.3);
+  box-shadow: 0 1.5px 4px 0 rgba(0, 0, 0, 0.3);
   color: gray;
 }
 
-.hamnav label, #hamburger { display: none; }
+.hamnav label,
+#hamburger {
+  display: none;
+}
 
 @media screen and (max-width: 600px) {
   .mainNav {
@@ -100,28 +102,25 @@ section {
     display: flex;
     justify-content: center;
     width: 100%;
-    padding: .5em .5em;
+    padding: 0.5em 0.5em;
   }
 
   .rightNavStyles {
     display: flex;
     justify-content: center;
     width: 100%;
-    padding: .8em .5em;
+    padding: 0.8em 0.5em;
     align-items: center;
   }
 
   .navbutton {
     padding: 1em 2em 1em;
     font-size: 10px;
-
   }
 
   .navbuttonOne {
     font-size: 10px;
     margin-right: 1em;
-    margin-left: .5em;
-  
+    margin-left: 0.5em;
   }
-
 }

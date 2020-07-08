@@ -10,10 +10,10 @@ const Home = () => {
           <div className="containerHeaderTwo">
             <div className="head">
               <h5>Carpentry Contractor</h5>
-              <h8>
+              <h3>
                 Locally owned and operated business. LWA Builders takes pride in
                 every job we do and guarantee 100% customer satisfaction.
-              </h8>
+              </h3>
             </div>
           </div>
         </div>
@@ -28,7 +28,7 @@ const Home = () => {
                 <img
                   width="auto"
                   height="100"
-                  alt="Pro Referral"
+                  alt="deck_icon"
                   src="https://res.cloudinary.com/dvwwzmsmn/image/upload/v1594178364/LWA/icons-01_azdauz.png"
                 />
                 <h4>Decks</h4>
@@ -42,7 +42,7 @@ const Home = () => {
                 <img
                   width="auto"
                   height="100"
-                  alt="Pro Referral"
+                  alt="home_icon"
                   src="https://res.cloudinary.com/dvwwzmsmn/image/upload/v1594178364/LWA/icons-03_sjcvh6.png"
                 />
                 <h4>Home Renovation</h4>
@@ -56,7 +56,7 @@ const Home = () => {
                 <img
                   width="auto"
                   height="100"
-                  alt="Pro Referral"
+                  alt="fence_icon"
                   src="https://res.cloudinary.com/dvwwzmsmn/image/upload/v1594178364/LWA/icons-04_motn8m.png"
                 />
                 <h4>Fencing</h4>
@@ -70,7 +70,7 @@ const Home = () => {
                 <img
                   width="auto"
                   height="100"
-                  alt="Pro Referral"
+                  alt="handyman_icon"
                   src="https://res.cloudinary.com/dvwwzmsmn/image/upload/v1594178364/LWA/icons-02_ad0ayu.png"
                 />
                 <h4>Handyman</h4>

@@ -10,6 +10,7 @@ const Navbar = () => {
             className="logo"
             width="65"
             height="30"
+            alt="lwa_logo"
             src="https://res.cloudinary.com/dvwwzmsmn/image/upload/v1590618404/LWA/LOGO_NAME_white_xklb9c.png"
           />
         </div>

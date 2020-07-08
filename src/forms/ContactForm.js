@@ -21,7 +21,7 @@ const ContactForm = () => {
   const isEnabled = name.length > 0 && phone.length > 0 && message.length > 1;
 
   return (
-    <form onSubmit={handleSubmit} >
+    <form onSubmit={handleSubmit}>
       <input
         type="text"
         label="Name"
