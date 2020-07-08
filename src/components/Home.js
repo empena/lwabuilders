@@ -10,7 +10,10 @@ const Home = () => {
           <div className="containerHeaderTwo">
             <div className="head">
               <h5>Carpentry Contractor</h5>
-              <h8>Locally owned and operated business. LWA Builders takes pride in every job we do and guarantee 100% customer satisfaction.</h8>
+              <h8>
+                Locally owned and operated business. LWA Builders takes pride in
+                every job we do and guarantee 100% customer satisfaction.
+              </h8>
             </div>
           </div>
         </div>
@@ -22,13 +25,13 @@ const Home = () => {
             <h1>Services</h1>
             <div className="row">
               <div className="column">
-                <h4>Decks</h4>
                 <img
                   width="auto"
                   height="100"
                   alt="Pro Referral"
                   src="https://res.cloudinary.com/dvwwzmsmn/image/upload/v1594178364/LWA/icons-01_azdauz.png"
                 />
+                <h4>Decks</h4>
                 <p>
                   We can help you build the deck of your dreams. High quality
                   craftmanship, durable materials and on-time delivery.
@@ -36,13 +39,13 @@ const Home = () => {
               </div>
 
               <div className="column">
-                <h4>Home Renovation</h4>
                 <img
                   width="auto"
                   height="100"
                   alt="Pro Referral"
                   src="https://res.cloudinary.com/dvwwzmsmn/image/upload/v1594178364/LWA/icons-03_sjcvh6.png"
                 />
+                <h4>Home Renovation</h4>
                 <p>
                   From finishing the basement or updating a bathroom, we can
                   help you remodel your home.
@@ -50,13 +53,13 @@ const Home = () => {
               </div>
 
               <div className="column">
-                <h4>Fencing</h4>
                 <img
                   width="auto"
                   height="100"
                   alt="Pro Referral"
                   src="https://res.cloudinary.com/dvwwzmsmn/image/upload/v1594178364/LWA/icons-04_motn8m.png"
                 />
+                <h4>Fencing</h4>
                 <p>
                   LWA Builders has a history of delivering superior fence
                   projects, whether vinyl or wood, all at an affordable price.
@@ -64,13 +67,13 @@ const Home = () => {
               </div>
 
               <div className="column">
-                <h4>Handyman</h4>
                 <img
                   width="auto"
                   height="100"
                   alt="Pro Referral"
                   src="https://res.cloudinary.com/dvwwzmsmn/image/upload/v1594178364/LWA/icons-02_ad0ayu.png"
                 />
+                <h4>Handyman</h4>
                 <p>
                   No task is to small for our team. Hardware installation, door
                   replacement, drywall repair to name a few.
@@ -84,10 +87,10 @@ const Home = () => {
       <section id="reviews">
         <div className="containerReviewsOne">
           <div className="containerReviewsTwo">
-            <h5>
+            <h1>
               You're in good company. See what others are saying about what we
               do.
-            </h5>
+            </h1>
             <a href="https://www.proreferral.com/public-profile/570351">
               <img
                 className="images"
@@ -131,7 +134,7 @@ const Home = () => {
       <section id="contact">
         <div className="containerContactOne">
           <div className="containerContactTwo">
-            <h1>Have a Question?</h1>
+            <h5>Have a Question?</h5>
             <h3>
               Whether you are ready to get started on your project or needs more
               answers, contact us with the form below.

@@ -3,56 +3,75 @@ input {
 }
 
 input[type=text] {
-  width: 50%;
+  width: 60%;
   padding: 12px 12px;
   margin-top: 15px;
   box-sizing: border-box;
-  border: 1px solid #2e2e31;
+  border: 1px solid white;
   border-radius: 4px;
-  background: rgba(255, 255, 255, 0.1);
+  background: white;
   font-size: 15px;
+  outline: none;
 }
 
 input[type=text]:focus {
-  border: 2px solid #2e2e31;
+  border: 1px solid white;
   outline: none;
-  background: none;
+  background: white;
 }
 
 textarea {
-  width: 50%;
+  width: 60%;
   height: 150px;
   padding: 12px 12px;
   box-sizing: border-box;
-  border: 1px solid #2e2e31;
+  border: 1px solid white;
   border-radius: 4px;
   resize: none;
-  background: rgba(255, 255, 255, 0.1);
+  background: white;
   font-size: 15px;
   margin-top: 15px;
   margin-bottom: 15px;
+  font-family: 'Roboto', 'Rubik', sans-serif, 'Segoe UI', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
 }
 
 textarea:focus {
-  border: 2px solid #2e2e31;
+  border: 1px solid white;
   outline: none;
 }
 
 button {
   background-color: #7d0e10;
+  padding: .9em 4em .9em;
+  font-size: 12px;
   color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
   border: 1px solid #7d0e10;
-  font-size: 14px;
-  padding: 1em 3em 1em 3em;
-  margin-top: 1em;
   border-radius: 4px;
-  width: 150px;
+  margin-right: 2em;
+  margin-left: 1.5em;
 }
 
 .button:hover {
   box-shadow: 0 1.5px 4px 0 rgba(0,0,0,.3);
-  background-color: white;
-  color: #7d0e10;
+  background-color: #7d0e10;
+  border: 1px solid #7d0e10;
+  color: white;
+  transform: translateY(4px);
+}
+
+@media screen and (max-width: 700px) {
+  input[type=text] {
+    width: 60%;
+  }
+
+  textarea {
+    width: 60%;
+  }
 }
 
 @media screen and (max-width: 600px) {
