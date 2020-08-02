@@ -7,14 +7,58 @@ const Home = () => {
     <>
       <section id="header">
         <div className="containerHeaderOne">
-          <div className="containerHeaderTwo">
-            <div className="head">
-              <h5>Carpentry Contractor</h5>
-              <h3>
-                Locally owned and operated business. LWA Builders takes pride in
-                every job we do and guarantee 100% customer satisfaction.
-              </h3>
-            </div>
+          <video autoplay="autoplay" muted loop width="100%" height="100%">
+            <source
+              src="https://res.cloudinary.com/dvwwzmsmn/video/upload/v1596406428/LWA/LWA_Builders_Promo_Clip_ottc7i.mp4"
+              type="video/mp4"
+            />
+          </video>
+        </div>
+      </section>
+
+      <section id="reviews">
+        <div className="containerReviewsOne">
+          <div className="containerReviewsTwo">
+            <h1>
+              Locally owned and operated business. We take pride in everything
+              we do. See what other are saying about us.
+            </h1>
+            <a href="https://www.proreferral.com/public-profile/570351">
+              <img
+                className="images"
+                width="120"
+                height="70"
+                alt="Pro Referral"
+                src="https://res.cloudinary.com/dvwwzmsmn/image/upload/v1590634483/LWA/ProRef_wm4hsv.png"
+              />
+            </a>
+            <a href="https://member.angieslist.com/member/store/24264261/about?categoryId=111">
+              <img
+                className="images"
+                width="120"
+                height="70"
+                alt="Angies List"
+                src="https://res.cloudinary.com/dvwwzmsmn/image/upload/v1590634483/LWA/AngieL_dy6vwi.png"
+              />
+            </a>
+            <a href="https://www.instagram.com/lwabuilders/?hl=en">
+              <img
+                className="images"
+                width="120"
+                height="70"
+                alt="Instagram"
+                src="https://res.cloudinary.com/dvwwzmsmn/image/upload/v1590634483/LWA/Insta_pu0cve.png"
+              />
+            </a>
+            <a href="https://porch.com/north-salt-lake-ut/framing-contractors/lwa-builders/pp">
+              <img
+                className="images"
+                width="120"
+                height="70"
+                alt="Porch"
+                src="https://res.cloudinary.com/dvwwzmsmn/image/upload/v1590634483/LWA/Porch_y61psn.png"
+              />
+            </a>
           </div>
         </div>
       </section>
@@ -29,7 +73,7 @@ const Home = () => {
                   width="auto"
                   height="100"
                   alt="deck_icon"
-                  src="https://res.cloudinary.com/dvwwzmsmn/image/upload/v1594178364/LWA/icons-01_azdauz.png"
+                  src="https://res.cloudinary.com/dvwwzmsmn/image/upload/v1590632144/LWA/architecture-bungalow-clouds-countryside-449023_aaovig.jpg"
                 />
                 <h4>Decks</h4>
                 <p>
@@ -43,40 +87,13 @@ const Home = () => {
                   width="auto"
                   height="100"
                   alt="home_icon"
-                  src="https://res.cloudinary.com/dvwwzmsmn/image/upload/v1594178364/LWA/icons-03_sjcvh6.png"
+                  src="https://res.cloudinary.com/dvwwzmsmn/image/upload/v1590632137/LWA/home-real-estate-106399_m4ekpc.jpg"
                 />
                 <h4>Home Renovation</h4>
                 <p>
-                  From finishing the basement or updating a bathroom, we can
-                  help you remodel your home.
-                </p>
-              </div>
-
-              <div className="column">
-                <img
-                  width="auto"
-                  height="100"
-                  alt="fence_icon"
-                  src="https://res.cloudinary.com/dvwwzmsmn/image/upload/v1594178364/LWA/icons-04_motn8m.png"
-                />
-                <h4>Fencing</h4>
-                <p>
-                  LWA Builders has a history of delivering superior fence
-                  projects, whether vinyl or wood, all at an affordable price.
-                </p>
-              </div>
-
-              <div className="column">
-                <img
-                  width="auto"
-                  height="100"
-                  alt="handyman_icon"
-                  src="https://res.cloudinary.com/dvwwzmsmn/image/upload/v1594178364/LWA/icons-02_ad0ayu.png"
-                />
-                <h4>Handyman</h4>
-                <p>
-                  No task is to small for our team. Hardware installation, door
-                  replacement, drywall repair to name a few.
+                  From finishing the basement or updating a bathroom, bring to
+                  life your home renovation project with the help of our skilled
+                  team.
                 </p>
               </div>
             </div>
@@ -84,59 +101,12 @@ const Home = () => {
         </div>
       </section>
 
-      <section id="reviews">
-        <div className="containerReviewsOne">
-          <div className="containerReviewsTwo">
-            <h1>
-              You're in good company. See what others are saying about what we
-              do.
-            </h1>
-            <a href="https://www.proreferral.com/public-profile/570351">
-              <img
-                className="images"
-                width="150"
-                height="100"
-                alt="Pro Referral"
-                src="https://res.cloudinary.com/dvwwzmsmn/image/upload/v1590634483/LWA/ProRef_wm4hsv.png"
-              />
-            </a>
-            <a href="https://member.angieslist.com/member/store/24264261/about?categoryId=111">
-              <img
-                className="images"
-                width="150"
-                height="100"
-                alt="Angies List"
-                src="https://res.cloudinary.com/dvwwzmsmn/image/upload/v1590634483/LWA/AngieL_dy6vwi.png"
-              />
-            </a>
-            <a href="https://www.instagram.com/lwabuilders/?hl=en">
-              <img
-                className="images"
-                width="150"
-                height="100"
-                alt="Instagram"
-                src="https://res.cloudinary.com/dvwwzmsmn/image/upload/v1590634483/LWA/Insta_pu0cve.png"
-              />
-            </a>
-            <a href="https://porch.com/north-salt-lake-ut/framing-contractors/lwa-builders/pp">
-              <img
-                className="images"
-                width="150"
-                height="100"
-                alt="Porch"
-                src="https://res.cloudinary.com/dvwwzmsmn/image/upload/v1590634483/LWA/Porch_y61psn.png"
-              />
-            </a>
-          </div>
-        </div>
-      </section>
-
       <section id="contact">
         <div className="containerContactOne">
           <div className="containerContactTwo">
-            <h5>Have a Question?</h5>
+            <h1>Have a Question?</h1>
             <h3>
-              Whether you are ready to get started on your project or needs more
+              Whether you are ready to get started on your project or need more
               answers, contact us with the form below.
             </h3>
             <h3>
@@ -157,12 +127,6 @@ const Home = () => {
       </div>
 
       <div className="containerFooter">
-        <img
-          width="50"
-          height="90"
-          alt="Porch"
-          src="https://res.cloudinary.com/dvwwzmsmn/image/upload/v1590618404/LWA/LOGO_contc6.png"
-        />
         <p>&copy; LWA Builders 2020</p>
       </div>
     </>

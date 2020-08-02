@@ -8,10 +8,10 @@ const Navbar = () => {
         <div className="leftNavStyles">
           <img
             className="logo"
-            width="65"
-            height="30"
+            width="50"
+            height="50"
             alt="lwa_logo"
-            src="https://res.cloudinary.com/dvwwzmsmn/image/upload/v1590618404/LWA/LOGO_NAME_white_xklb9c.png"
+            src="https://res.cloudinary.com/dvwwzmsmn/image/upload/v1590618404/LWA/LOGO_No_name_l0fpjr.png"
           />
         </div>
         <div className="rightNavStyles">

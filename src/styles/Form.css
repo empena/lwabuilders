@@ -60,7 +60,7 @@ button {
   background-color: #7d0e10;
   border: 1px solid #7d0e10;
   color: white;
-  transform: translateY(4px);
+  transform: translateY(1px);
 }
 
 @media screen and (max-width: 700px) {

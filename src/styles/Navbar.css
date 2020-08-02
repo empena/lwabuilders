@@ -28,7 +28,6 @@ section {
   display: flex;
   justify-content: space-between;
   width: 30%;
-  padding: 0.5em 0.5em;
 }
 
 .logo {
@@ -102,14 +101,12 @@ section {
     display: flex;
     justify-content: center;
     width: 100%;
-    padding: 0.5em 0.5em;
   }
 
   .rightNavStyles {
     display: flex;
     justify-content: center;
     width: 100%;
-    padding: 0.8em 0.5em;
     align-items: center;
   }
 
