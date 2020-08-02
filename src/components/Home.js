@@ -7,7 +7,7 @@ const Home = () => {
     <>
       <section id="header">
         <div className="containerHeaderOne">
-          <video autoplay="autoplay" muted loop width="100%" height="100%">
+          <video autoPlay="autoPlay" muted loop width="100%" height="100%">
             <source
               src="https://res.cloudinary.com/dvwwzmsmn/video/upload/v1596406428/LWA/LWA_Builders_Promo_Clip_ottc7i.mp4"
               type="video/mp4"
