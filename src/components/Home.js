@@ -70,8 +70,9 @@ const Home = () => {
             <div className="row">
               <div className="column">
                 <img
-                  width="auto"
-                  height="100"
+                  width="90%"
+                  height="auto"
+                  max-width="200px"
                   alt="deck_icon"
                   src="https://res.cloudinary.com/dvwwzmsmn/image/upload/v1590632144/LWA/architecture-bungalow-clouds-countryside-449023_aaovig.jpg"
                 />
@@ -84,8 +85,9 @@ const Home = () => {
 
               <div className="column">
                 <img
-                  width="auto"
-                  height="100"
+                  width="90%"
+                  height="auto"
+                  max-width="200px"
                   alt="home_icon"
                   src="https://res.cloudinary.com/dvwwzmsmn/image/upload/v1590632137/LWA/home-real-estate-106399_m4ekpc.jpg"
                 />
